@@ -1,0 +1,1 @@
+Building a minimal Docker container for a trivial MongoDb based app, coded with Golang, to try out and learn DOCKER.
