@@ -11,11 +11,11 @@ import (
   )
 
 const (
-MongoDBHosts = "ds055680.mongolab.com:55680"
-AuthDatabase = "go2mydata"
-AuthUserName = "rikki"
-AuthPassword = "r1331"
-TestDatabase = "go2mydata" 
+MongoDBHosts = "dsxxxxxx.mongolab.com:xxxxxx"
+AuthDatabase = "xxxxxx"
+AuthUserName = "xxxxxxx"
+AuthPassword = "xxxxxxxx"
+TestDatabase = "xxxxxxxxxxx" 
 )
   
 type AddressData struct{
