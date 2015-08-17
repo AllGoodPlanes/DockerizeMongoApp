@@ -1,6 +1,6 @@
 # Deletes existing mongoapp
-deleteApp:	mongoapp
-	docker rmi -f mongoapp
+deleteApp:	allgoodplanes/mongoapp
+	docker rmi -f allgoodplanes/mongoapp
 
 
 
@@ -12,4 +12,4 @@ builddocker:	eAddress.go
 
 # Runs the app and publishes it so it can be seen on port 8080 of the local PC.
 dockerrun:
-	docker run --publish=8080:8080 --name=goweb --rm mongoapp
+	docker run --publish=8080:8080 --name=goweb --rm allgoodplanes/mongoapp
